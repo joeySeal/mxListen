@@ -17,7 +17,7 @@ file="./sounds/motion_detected_in_hall.mp3"
 
 while true; do
 	res="$(nc -l $port)"
-	echo "$(date) -- $res" >> /home/pi/scripts/mxListen/trigger.log
+	echo "$(date) -- $res" >> ./trigger.log
 	if [ "$res" = "$message" ]; then
 		mpg321 $file
 	fi
