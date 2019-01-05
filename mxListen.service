@@ -1,0 +1,11 @@
+[Unit]
+Description=Run mxListen
+
+[Service]
+ExecStart=/home/pi/mxListen/mxListen.sh Restart=always
+WorkingDirectory=/home/pi/mxListen/
+User=pi
+Group=pi
+
+[Install]
+WantedBy=default.target
