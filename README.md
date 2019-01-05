@@ -1,7 +1,7 @@
 # mxListen
-Allows the raspberry pi to be used as an output module for your mobotix camera, in this example it is used to play an audio file when activity sensor triggers ipnotify
+Allows the raspberry pi to be used as an output module for your mobotix camera, in this example it is used to play an audio file when activity sensor detects motion but it could also trigger one of the PIs GPIO pins
 
-Installation
+**Installation**
 1. Clone this repo
 2. cd into mxListen directory
 3. run mv mxListen.service /etc/systemd/system
