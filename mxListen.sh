@@ -6,7 +6,7 @@ amixer cset numid=3 1
 port="50501"
 #listen port
 
-message="Error message"
+message="hallway motion"
 #"message" to listen for
 
 file="./sounds/motion_detected_in_hall.mp3"
